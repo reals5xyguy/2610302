@@ -1,0 +1,12 @@
+{
+  "name": "changwon-daycare",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build-data": "node scripts/build-data.mjs",
+    "dev": "node scripts/dev.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

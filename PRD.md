@@ -115,7 +115,7 @@
 - [ ] 남은 기간 확인
 - [ ] 데이터 출처 URL과 갱신 주기 확인
 - [ ] v1 PRD 원본 확보 (연결된 Gmail `jehw19@gmail.com`에서는 찾지 못함)
-- [ ] 데이터 저장 방식 결정: 정적 JSON과 Supabase 중 선택 (Supabase 커넥터는 인증되지 않은 상태)
+- [x] 데이터 저장 방식 결정: 첫 버전은 CSV에서 만든 정적 JSON(`api/_lib/daycares.json`). Supabase는 커넥터 인증 후 `docs/todo.md` 5회차에서 진행
 - [x] GitHub 업로드 완료 (`reals5xyguy/2610302`, git으로 직접 push)
 - [ ] GitHub 커넥터 재연결 (아직 인증 오류)
 - [ ] 기존 `index.html`(할 일 목록)을 유지할지 결정
