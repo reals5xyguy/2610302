@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>창원시 어린이집 찾기</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <script type="module" src="/js/app.js"></script>
+</head>
+<body>
+  <header class="header">
+    <h1>창원시 어린이집 찾기</h1>
+    <p class="basis" id="basis">기준일 불러오는 중…</p>
+  </header>
+
+  <main class="main">
+    <form class="filters" id="filters">
+      <label>
+        구
+        <select name="gu" id="gu"><option value="">전체</option></select>
+      </label>
+      <label>
+        유형
+        <select name="type" id="type"><option value="">전체</option></select>
+      </label>
+    </form>
+
+    <p class="status" id="status" role="status" aria-live="polite"></p>
+    <ul class="list" id="list"></ul>
+  </main>
+</body>
+</html>
