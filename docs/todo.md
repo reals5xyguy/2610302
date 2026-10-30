@@ -1,10 +1,10 @@
 # 다음 할 일
 
 ## 4회차 전
-- [ ] **Vercel 배포**: vercel.com → Add New → Project → GitHub `reals5xyguy/2610302` Import → Deploy (환경변수 필요 없음)
-- [ ] 배포 주소에서 PRD 완료 기준 7개를 다시 눌러 보고 `docs/poc.md`에 결과 추가
-- [ ] README에 배포 주소 적기
-- [ ] 저장소가 비공개라면 강사 계정을 Collaborator로 초대
+- [x] Vercel 배포: https://2610302.vercel.app/
+- [x] 배포 주소에서 PRD 완료 기준 7개 확인 → `docs/poc.md` (7개 통과)
+- [x] README에 배포 주소 적기
+- [x] 저장소 공개 상태 확인 (공개라 Collaborator 초대 불필요)
 - [ ] 데이터 출처 URL(공공데이터포털)과 갱신 주기 확인 → PRD 3장 "확인 필요" 채우기
 
 ## 4회차
